@@ -1,0 +1,49 @@
+body{
+  height: 100%;
+  font-family: 'Grape Nuts', cursive;
+}
+video{
+  position: fixed;
+  left: 50%;
+  top:50%;
+  margin-top: -50%;
+  margin-left: -50%;
+  z-index: 1;
+}
+div{
+  position: relative;
+  margin: 0 auto;
+  max-width: 720px;
+  margin-top: 5%;
+  text-align: center;
+  z-index: 2;
+}
+h1{
+  margin-bottom: 25px;
+  font-size: 44px;
+  color:rgb(39,39,39);
+  background-color: #e84b4f;
+  opacity: 0.8;
+  font-size: 4em;
+  border-radius: 15px;
+}
+p{
+  color: #fff;
+  background-color: grey;
+  opacity: 0.8;
+  font-size: 1.8rem;
+  border-radius: 15px;
+}
+a{
+  display: inline-block;
+  padding: 14px 28px;
+  border: solid 4px rgb(255,60,100);
+  text-decoration: none;
+  font-size: 2em;
+  border-radius: 25px;
+  color: #fff;
+}
+a:hover{
+  color: #000;
+  background-color: wheat;
+}
